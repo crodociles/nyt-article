@@ -1,0 +1,296 @@
+/*
+===========================================================
+Reset
+===========================================================
+*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+============================================================
+Layout
+============================================================
+*/
+
+
+#main_page{
+	margin-left: 30px;
+	box-shadow: -2px 0 6px #eee;
+}
+
+#wrapper{
+	width: 1150px;
+	margin: auto;	
+}
+
+
+/*
+=========================================================
+NavBar
+=========================================================
+*/
+
+#fixed_site_header{
+	border-bottom: 1px solid #ccc;
+	background-color: white;
+	position: fixed;
+	width: 100%; height: 52px;
+	top:0;
+	box-shadow: -6px 0 6px #eee;
+}
+
+.nav_button{
+	display: inline-block;
+}
+
+#sections_btn{
+	float: left;
+	margin-top: 10px;
+	margin-left: -15px;
+	background-color: white;
+	border-radius: 5px;
+	font-size: 8pt;
+}
+
+#logo{
+	margin: 15px 0 0 380px;
+}
+
+#login_btn{
+	float: right;
+	margin-right: 40px;
+}
+
+.buttons{
+	display: inline-block;
+	height: 30px;
+	text-align: center;
+}
+
+#sections{
+	width: 110px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	box-shadow: 0 2px 4px #eee;
+}
+
+.span_buttons > img{
+	float: left;
+	width: 20px;
+	margin-top: 5px;
+	margin-left: 10px;
+	padding: 0;
+	display: inline-block;
+}
+
+#times_logo_home_button{
+	width: 15px;
+	margin-right: 10px;
+}
+
+#nav_button_list > li{
+	margin-right: 10px;
+}
+
+#login_button{
+	margin: 8px;
+	background-color: #6288a5;
+	height: 30px; width: 57px;
+	color: white;
+	border: 1px solid #999;
+	border-radius: 3px;
+	text-align: center;
+}
+
+#user_settings > li{
+	display: inline-block;
+}
+
+#settings_wheel_icon{
+}
+
+/*
+=========================================================
+Related Articles
+=========================================================
+*/
+.thumbnail_image{
+	float: left;
+	padding: 10px;
+}
+
+#related_article_text_wrapper{
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+.related_article_list_wrapper{	
+	list-style-type: none;
+	width: 16%;
+	height: 95px;
+	margin-top: 50px;
+	display: inline-block;
+	border-right: 1px solid #ccc;
+	float: left;
+}
+
+#related_articles{
+	box-shadow: 0 0 8px #ccc;
+	height: 145px;
+}
+
+#related_article_text_wrapper{
+	width: 240px;
+}
+
+/*
+=========================================================
+Links
+=========================================================
+*/
+
+a{
+	text-decoration: none;
+
+}
+
+/*
+=========================================================
+Typography
+=========================================================
+*/
+
+.related_article_text{
+	letter-spacing: .6px;
+	color: #222;
+	font-size: 11pt;
+}
+
+.span_buttons{
+	font-size: 8pt;
+	line-height: 30px;
+	text-transform: uppercase;
+	font-family: arial;
+	font-weight: 900;
+	color: #444;
+}
+
+.span_login_button{
+	color: white;
+	font-size: 8pt;
+	line-height: 30px;
+	text-transform: uppercase;
+	font-family: "nyt-franklin", arial;
+	font-weight: 900;
+}
+
+#comment_text{
+	font-size: 10pt;
+	line-height: 30px;
+	text-transform: uppercase;
+	font-family: "nyt-franklin", arial;
+	font-weight: 400;
+	color: #777;
+}
+
+#headline_text{
+	font-style: italic;
+	font-size: 27pt;
+	font-weight: 800;
+}
+
+#author_text{
+	font-weight: 700;
+	font-size: 10pt;
+	letter-spacing: 0.1px;
+	margin-right: 10px;
+	font-family: arial;
+}
+
+#date{
+	font-weight: 300;
+	font-size: 8.5pt;
+	letter-spacing: 0px;
+	font-family: arial;
+}
+/*
+====================================================
+Main Article
+====================================================
+*/
+
+#subject_area{
+	padding: 30px 0 20px 0;
+	font-size: 10pt;
+	line-height: 30px;
+	text-transform: uppercase;
+	font-family: "nyt-franklin", arial;
+	font-weight: 800;
+}
+
+#comment_number{
+	float: right;
+	display: inline-block;
+	border: none;
+	background-color: transparent;
+}
+
+#main_image{
+	width: 100%;
+}
+
+#line_break{
+	width:100%; height: 1px;
+	background-color: #DDD;
+	margin: 20px 0 10px 0;
+}
+
+#author_date{
+	margin-bottom: 30px;
+}
