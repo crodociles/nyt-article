@@ -226,7 +226,7 @@ Typography
 	font-size: 8pt;
 	line-height: 30px;
 	text-transform: uppercase;
-	font-family: "nyt-franklin", arial;
+	font-family: arial;
 	font-weight: 900;
 }
 
@@ -234,7 +234,7 @@ Typography
 	font-size: 10pt;
 	line-height: 30px;
 	text-transform: uppercase;
-	font-family: "nyt-franklin", arial;
+	font-family: arial;
 	font-weight: 400;
 	color: #777;
 }
@@ -259,6 +259,58 @@ Typography
 	letter-spacing: 0px;
 	font-family: arial;
 }
+
+.image_description{
+	font-size: 12pt;
+	color: #666;
+}
+
+.image_credit{
+	font-size: 10pt;
+	color: #444;
+}
+
+.main_text{
+	font-size: 15pt;
+	color: #222;
+}
+
+.social_media_text{
+	font-family: arial;
+	color: #666;
+	font-size: 10pt;
+}
+
+#graphic_title{
+	font-size: 16pt;
+	font-weight: 800;
+	color: #333;
+}
+
+.graphic_panel_text{
+	font-family: arial;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+#grahic_title_description{
+	color: #666;
+}
+
+.graphic_credit{
+	font-size: 11px;
+	color: #666;
+}
+
+#in_article_header{
+	font-style: bold;
+}
+
+.print{
+	color: #666;
+	font-size: 12px;
+	font-family: arial;
+}
 /*
 ====================================================
 Main Article
@@ -274,6 +326,10 @@ Main Article
 	font-weight: 800;
 }
 
+.embedded_video{
+	margin: 50px;
+}
+
 #comment_number{
 	float: right;
 	display: inline-block;
@@ -285,7 +341,13 @@ Main Article
 	width: 100%;
 }
 
-#line_break{
+.image_accompanying_text_wrapper{
+	width: 700px;
+	margin-bottom: 50px;
+	clear: both;
+}
+
+.line_break{
 	width:100%; height: 1px;
 	background-color: #DDD;
 	margin: 20px 0 10px 0;
@@ -293,4 +355,267 @@ Main Article
 
 #author_date{
 	margin-bottom: 30px;
+}
+
+.main_article_text{
+	width: 600px;
+	display: inline-block;
+}
+
+.second_article_text{
+	margin-left: 50px;
+	width:600px;
+}
+
+#bottom_line_break{
+	background-color: black;
+	margin: 50px 0 20px 0;
+	height: 1px;
+	width: 60px;
+}
+
+/*
+==============================================================================
+Social Media
+==============================================================================
+*/
+
+.social_media_links{
+	float: left;
+}
+.social_media_button{
+	height: 30px; width: 100px;
+	border-bottom: 1px solid #ccc;
+	margin: 5px 50px 5px 0;
+	padding-bottom: 5px;
+}
+
+.social_media_button:hover{
+	background-color: #e1e1e1;
+	}
+
+.social_media_button:img{
+}
+
+/*
+=============================================================================
+Graphic
+=============================================================================
+*/
+
+#graphic_wrapper{
+	width: 945px;
+	margin: auto;
+}
+
+#inflation_graphic{
+	width: 945px;
+	display: block;
+	position:absolute;
+}
+
+.graphic_text_panel_top{
+	position: relative;
+	width: 228px;
+	margin-top: 140px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.graphic_text_panel_bottom{
+	position: relative;
+	width: 228px;
+	margin-top: 150px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#graphic_title_wrapper{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+/*
+====================================================================
+Footer
+====================================================================
+*/
+
+#left_column_footer{
+	width: 65%;
+	padding-top: 10px;
+	border-top: 1px solid #ccc;
+	margin-right: 40px;
+	vertical-align: top;
+	display: inline-block;
+}
+
+
+#right_column_footer{
+	width: 300px;
+	border-top: 1px solid #ccc;
+	vertical-align: top;
+	display: inline-block;
+}
+
+#article_footer{
+	width: 75%;
+	margin: 100px auto;
+}
+
+.m_r_a_t_text{
+	font-size: 20px;
+	font-weight: 700;
+	font-family: arial;
+	letter-spacing: -1.5px;
+	display: inline-block;
+	float: left;
+}
+
+#most_emailed_header{
+	margin-top: 10px;
+}
+
+#most_emailed_header_text{
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: 900;
+	font-family: arial;
+	
+}
+
+.m_r_a_t_links{
+	display: inline-block;
+	float: right;
+	font-size: 11px;
+	font-family: arial;
+	line-height: 25px;
+	color: darkblue;
+}
+
+.more_related_articles_all{
+	width: 31%;
+	margin-top: 40px;
+	margin-right: 15px;
+	display: inline-block;
+}
+
+
+.more_related_articles_all > img{
+	margin: 10px 0;
+	width: 100%;
+	float: left;
+}
+
+.m_r_a_toprow_text{
+	font-size: 17px;
+}
+
+#m_r_a_wrapper{
+	width: 100%;
+	display: inline-block;
+}
+
+.most_emailed_wrapper{
+	background-image: url("img/most_email_list.png");
+	height: 475px; width: 310px;
+	background-repeat: no-repeat;
+}
+
+#recommended_for_you{
+	margin-top: 30px;
+	border-top: 1px solid #ccc;
+	padding-top: 10px;
+	float: left;
+}
+
+.recommended_wrapper{
+	width: 100%;
+	display: inline-block;
+}
+
+#more_related_articles_wrapper{
+	margin-bottom: 200px;
+}
+
+#nyt_links_logo{
+	display: inline-block;
+	float:left;
+	clear: both;
+}
+
+#nyt_links_home_link{
+	display: inline-block;
+	float: right;
+	vertical-align: top
+}
+
+#nyt_links_wrapper{
+	border-top: 2px solid #bbb;
+
+	display: inline-block;
+}
+
+#nyt_links_header{
+	padding: 10px;
+	margin:1px;
+	border-top: 1px solid #bbb;
+	width: 100%;
+}
+
+.nyt_links_body_col{
+	margin-top: 50px;
+	font-family: arial;
+	line-height: 29px;
+	width: 190px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.column_header{
+	font-weight: 700;
+	color: #333;
+}
+
+#nyt_links_body{
+	display: inline-block;
+	width: 100%;	
+	border-bottom: 2px solid #bbb;
+}
+
+#links_col_6{
+	border-left: 1px solid #ccc;
+	padding-left: 20px;
+	width: 210px;
+}
+
+.subscription{
+	font-weight: 800;
+	line-height: 35px
+}
+
+#column_6_second_list{
+	font-size: 12px;
+	line-height: 20px;
+	margin: 15px 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+#column_6_third_list{
+	font-size: 12px;
+	line-height: 20px;
+	margin: 15px 10px;
+	padding-bottom: 10px;
+}
+
+#copyright{
+	padding-top: 10px;
+}
+
+#last_bit{
+	color: #666;
+	font-size: 12px;
+	font-family: arial;
+	float: right;
 }
